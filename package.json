@@ -1,0 +1,21 @@
+{
+  "name": "qq",
+  "version": "1.0.0",
+  "description": "Cloudflare ddos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "DDOS",
+    "Cloudflare"
+  ],
+  "author": "Fiahub",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3"
+  }
+}
